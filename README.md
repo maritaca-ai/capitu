@@ -58,7 +58,7 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
 ### Requirements
 
 - Python 3.12+
-- Dependencies: `nltk`, `immutabledict`, `openai`, `tqdm`, `matplotlib`, `numpy`
+- Dependencies: `nltk`, `immutabledict`, `openai`, `tqdm`, `matplotlib`, `numpy`, `wandb`
 
 ### Verifying the installation
 
@@ -237,8 +237,9 @@ capitu/
 ├── evaluation_lib.py                  # Evaluation orchestration and coherence scoring
 ├── metrics.py                         # Metric aggregation and reporting
 │
-│  # Analysis and figures
+│  # Analysis and integration
 ├── collect_results.py                 # Cross-model result aggregation
+├── upload_to_wandb.py                 # Upload metrics to Weights & Biases
 │
 │  # Orchestration
 ├── run_paper_models.sh                # Run all 18 paper models

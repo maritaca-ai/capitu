@@ -1,0 +1,211 @@
+
+========================================================================
+INICIANDO AVALIAÇÃO DE TODOS OS MODELOS
+========================================================================
+
+========================================================================
+[1/1] Avaliando: sabia-3.1
+========================================================================
+
+[1;34m[INFO][0m Usando juiz de coerência: gpt-4o-mini
+
+[1;34m[INFO][0m Avaliando single-turn para sabia-3.1...
+Questões carregadas: 200
+Respostas carregadas: 200
+Modo detectado: single-turn
+
+================================================================
+AVALIAÇÃO ESTRITA
+================================================================
+Avaliando instruções (modo estrito):   0%|          | 0/200 [00:00<?, ?it/s]Avaliando instruções (modo estrito): 100%|██████████| 200/200 [00:00<00:00, 11166.20it/s]
+
+Avaliando instruções (modo flexível)...
+Avaliando instruções (modo flexível):   0%|          | 0/200 [00:00<?, ?it/s]Avaliando instruções (modo flexível): 100%|██████████| 200/200 [00:00<00:00, 9510.03it/s]
+
+Pontuando coerência...
+Pontuando coerência:   0%|          | 0/200 [00:00<?, ?it/s]Pontuando coerência:   0%|          | 1/200 [00:01<05:40,  1.71s/it]Pontuando coerência:   1%|          | 2/200 [00:03<05:08,  1.56s/it]Pontuando coerência:   2%|▏         | 3/200 [00:04<04:50,  1.47s/it]Pontuando coerência:   2%|▏         | 4/200 [00:06<04:51,  1.49s/it]Pontuando coerência:   2%|▎         | 5/200 [00:08<05:34,  1.72s/it]Pontuando coerência:   3%|▎         | 6/200 [00:09<05:25,  1.68s/it]Pontuando coerência:   4%|▎         | 7/200 [00:11<05:18,  1.65s/it]Pontuando coerência:   4%|▍         | 8/200 [00:13<06:11,  1.93s/it]Pontuando coerência:   4%|▍         | 9/200 [00:15<05:59,  1.88s/it]Pontuando coerência:   5%|▌         | 10/200 [00:18<07:04,  2.24s/it]Pontuando coerência:   6%|▌         | 11/200 [00:20<06:34,  2.09s/it]Pontuando coerência:   6%|▌         | 12/200 [00:21<05:49,  1.86s/it]Pontuando coerência:   6%|▋         | 13/200 [00:23<05:50,  1.88s/it]Pontuando coerência:   7%|▋         | 14/200 [00:25<05:20,  1.72s/it]Pontuando coerência:   8%|▊         | 15/200 [00:26<05:02,  1.63s/it]Pontuando coerência:   8%|▊         | 16/200 [00:27<04:43,  1.54s/it]Pontuando coerência:   8%|▊         | 17/200 [00:29<04:53,  1.60s/it]Pontuando coerência:   9%|▉         | 18/200 [00:31<04:48,  1.58s/it]Pontuando coerência:  10%|▉         | 19/200 [00:32<04:32,  1.51s/it]Pontuando coerência:  10%|█         | 20/200 [00:34<04:38,  1.55s/it]Pontuando coerência:  10%|█         | 21/200 [00:35<04:25,  1.48s/it]Pontuando coerência:  11%|█         | 22/200 [00:36<04:15,  1.44s/it]Pontuando coerência:  12%|█▏        | 23/200 [00:38<04:17,  1.46s/it]Pontuando coerência:  12%|█▏        | 24/200 [00:39<04:17,  1.46s/it]Pontuando coerência:  12%|█▎        | 25/200 [00:41<04:26,  1.52s/it]Pontuando coerência:  13%|█▎        | 26/200 [00:42<04:13,  1.45s/it]Pontuando coerência:  14%|█▎        | 27/200 [00:44<04:10,  1.45s/it]Pontuando coerência:  14%|█▍        | 28/200 [00:45<04:08,  1.45s/it]Pontuando coerência:  14%|█▍        | 29/200 [00:46<03:56,  1.38s/it]Pontuando coerência:  15%|█▌        | 30/200 [00:48<03:58,  1.40s/it]Pontuando coerência:  16%|█▌        | 31/200 [00:49<04:02,  1.43s/it]Pontuando coerência:  16%|█▌        | 32/200 [00:53<06:04,  2.17s/it]Pontuando coerência:  16%|█▋        | 33/200 [00:54<05:06,  1.83s/it]Pontuando coerência:  17%|█▋        | 34/200 [00:56<04:43,  1.71s/it]Pontuando coerência:  18%|█▊        | 35/200 [00:57<04:33,  1.66s/it]Pontuando coerência:  18%|█▊        | 36/200 [00:59<04:23,  1.61s/it]Pontuando coerência:  18%|█▊        | 37/200 [01:00<04:22,  1.61s/it]Pontuando coerência:  19%|█▉        | 38/200 [01:02<04:20,  1.61s/it]Pontuando coerência:  20%|█▉        | 39/200 [01:03<04:05,  1.52s/it]Pontuando coerência:  20%|██        | 40/200 [01:05<04:13,  1.59s/it]Pontuando coerência:  20%|██        | 41/200 [01:07<04:34,  1.73s/it]Pontuando coerência:  21%|██        | 42/200 [01:08<04:04,  1.55s/it]Pontuando coerência:  22%|██▏       | 43/200 [01:09<03:55,  1.50s/it]Pontuando coerência:  22%|██▏       | 44/200 [01:11<03:49,  1.47s/it]Pontuando coerência:  22%|██▎       | 45/200 [01:12<03:49,  1.48s/it]Pontuando coerência:  23%|██▎       | 46/200 [01:14<03:46,  1.47s/it]Pontuando coerência:  24%|██▎       | 47/200 [01:15<03:28,  1.36s/it]Pontuando coerência:  24%|██▍       | 48/200 [01:16<03:35,  1.42s/it]Pontuando coerência:  24%|██▍       | 49/200 [01:19<04:02,  1.61s/it]Pontuando coerência:  25%|██▌       | 50/200 [01:20<03:43,  1.49s/it]Pontuando coerência:  26%|██▌       | 51/200 [01:21<03:48,  1.54s/it]Pontuando coerência:  26%|██▌       | 52/200 [01:23<03:38,  1.47s/it]Pontuando coerência:  26%|██▋       | 53/200 [01:24<03:33,  1.45s/it]Pontuando coerência:  27%|██▋       | 54/200 [01:25<03:17,  1.35s/it]Pontuando coerência:  28%|██▊       | 55/200 [01:27<03:39,  1.51s/it]Pontuando coerência:  28%|██▊       | 56/200 [01:29<03:34,  1.49s/it]Pontuando coerência:  28%|██▊       | 57/200 [01:29<03:06,  1.31s/it]Pontuando coerência:  29%|██▉       | 58/200 [01:31<03:03,  1.29s/it]Pontuando coerência:  30%|██▉       | 59/200 [01:32<03:08,  1.34s/it]Pontuando coerência:  30%|███       | 60/200 [01:34<03:13,  1.38s/it]Pontuando coerência:  30%|███       | 61/200 [01:36<03:32,  1.53s/it]Pontuando coerência:  31%|███       | 62/200 [01:37<03:21,  1.46s/it]Pontuando coerência:  32%|███▏      | 63/200 [01:39<03:31,  1.55s/it]Pontuando coerência:  32%|███▏      | 64/200 [01:40<03:29,  1.54s/it]Pontuando coerência:  32%|███▎      | 65/200 [01:42<03:25,  1.52s/it]Pontuando coerência:  33%|███▎      | 66/200 [01:44<04:11,  1.88s/it]Pontuando coerência:  34%|███▎      | 67/200 [01:46<03:47,  1.71s/it]Pontuando coerência:  34%|███▍      | 68/200 [01:47<03:27,  1.57s/it]Pontuando coerência:  34%|███▍      | 69/200 [01:48<03:22,  1.54s/it]Pontuando coerência:  35%|███▌      | 70/200 [01:50<03:17,  1.52s/it]Pontuando coerência:  36%|███▌      | 71/200 [01:51<02:48,  1.31s/it]Pontuando coerência:  36%|███▌      | 72/200 [01:53<03:46,  1.77s/it]Pontuando coerência:  36%|███▋      | 73/200 [01:55<03:24,  1.61s/it]Pontuando coerência:  37%|███▋      | 74/200 [01:56<03:16,  1.56s/it]Pontuando coerência:  38%|███▊      | 75/200 [01:58<03:26,  1.66s/it]Pontuando coerência:  38%|███▊      | 76/200 [02:00<03:42,  1.79s/it]Pontuando coerência:  38%|███▊      | 77/200 [02:01<03:23,  1.66s/it]Pontuando coerência:  39%|███▉      | 78/200 [02:03<03:13,  1.59s/it]Pontuando coerência:  40%|███▉      | 79/200 [02:04<03:11,  1.58s/it]Pontuando coerência:  40%|████      | 80/200 [02:05<02:49,  1.41s/it]Pontuando coerência:  40%|████      | 81/200 [02:07<02:47,  1.41s/it]Pontuando coerência:  41%|████      | 82/200 [02:09<02:55,  1.49s/it]Pontuando coerência:  42%|████▏     | 83/200 [02:10<02:54,  1.49s/it]Pontuando coerência:  42%|████▏     | 84/200 [02:12<03:01,  1.56s/it]Pontuando coerência:  42%|████▎     | 85/200 [02:13<03:04,  1.60s/it]Pontuando coerência:  43%|████▎     | 86/200 [02:15<03:05,  1.63s/it]Pontuando coerência:  44%|████▎     | 87/200 [02:16<02:54,  1.54s/it]Pontuando coerência:  44%|████▍     | 88/200 [02:18<02:38,  1.41s/it]Pontuando coerência:  44%|████▍     | 89/200 [02:19<02:41,  1.45s/it]Pontuando coerência:  45%|████▌     | 90/200 [02:20<02:35,  1.42s/it]Pontuando coerência:  46%|████▌     | 91/200 [02:22<02:49,  1.55s/it]Pontuando coerência:  46%|████▌     | 92/200 [02:24<02:39,  1.47s/it]Pontuando coerência:  46%|████▋     | 93/200 [02:25<02:22,  1.33s/it]Pontuando coerência:  47%|████▋     | 94/200 [02:26<02:35,  1.47s/it]Pontuando coerência:  48%|████▊     | 95/200 [02:28<02:36,  1.49s/it]Pontuando coerência:  48%|████▊     | 96/200 [02:29<02:25,  1.40s/it]Pontuando coerência:  48%|████▊     | 97/200 [02:31<02:22,  1.39s/it]Pontuando coerência:  49%|████▉     | 98/200 [02:32<02:13,  1.31s/it]Pontuando coerência:  50%|████▉     | 99/200 [02:33<02:09,  1.29s/it]Pontuando coerência:  50%|█████     | 100/200 [02:34<02:13,  1.33s/it]Pontuando coerência:  50%|█████     | 101/200 [02:36<02:08,  1.30s/it]Pontuando coerência:  51%|█████     | 102/200 [02:37<02:05,  1.28s/it]Pontuando coerência:  52%|█████▏    | 103/200 [02:38<01:55,  1.19s/it]Pontuando coerência:  52%|█████▏    | 104/200 [02:39<01:56,  1.21s/it]Pontuando coerência:  52%|█████▎    | 105/200 [02:40<02:01,  1.28s/it]Pontuando coerência:  53%|█████▎    | 106/200 [02:43<02:24,  1.54s/it]Pontuando coerência:  54%|█████▎    | 107/200 [02:44<02:26,  1.57s/it]Pontuando coerência:  54%|█████▍    | 108/200 [02:47<02:48,  1.84s/it]Pontuando coerência:  55%|█████▍    | 109/200 [02:48<02:24,  1.59s/it]Pontuando coerência:  55%|█████▌    | 110/200 [02:49<02:16,  1.52s/it]Pontuando coerência:  56%|█████▌    | 111/200 [02:50<02:07,  1.43s/it]Pontuando coerência:  56%|█████▌    | 112/200 [02:52<02:08,  1.46s/it]Pontuando coerência:  56%|█████▋    | 113/200 [02:54<02:22,  1.64s/it]Pontuando coerência:  57%|█████▋    | 114/200 [02:56<02:26,  1.70s/it]Pontuando coerência:  57%|█████▊    | 115/200 [02:57<02:20,  1.65s/it]Pontuando coerência:  58%|█████▊    | 116/200 [02:58<02:05,  1.49s/it]Pontuando coerência:  58%|█████▊    | 117/200 [03:00<01:59,  1.44s/it]Pontuando coerência:  59%|█████▉    | 118/200 [03:01<02:00,  1.47s/it]Pontuando coerência:  60%|█████▉    | 119/200 [03:03<02:05,  1.55s/it]Pontuando coerência:  60%|██████    | 120/200 [03:05<02:12,  1.65s/it]Pontuando coerência:  60%|██████    | 121/200 [03:07<02:16,  1.73s/it]Pontuando coerência:  61%|██████    | 122/200 [03:08<02:07,  1.64s/it]Pontuando coerência:  62%|██████▏   | 123/200 [03:10<01:59,  1.55s/it]Pontuando coerência:  62%|██████▏   | 124/200 [03:11<01:59,  1.57s/it]Pontuando coerência:  62%|██████▎   | 125/200 [03:12<01:52,  1.50s/it]Pontuando coerência:  63%|██████▎   | 126/200 [03:14<01:47,  1.46s/it]Pontuando coerência:  64%|██████▎   | 127/200 [03:15<01:47,  1.47s/it]Pontuando coerência:  64%|██████▍   | 128/200 [03:17<01:43,  1.43s/it]Pontuando coerência:  64%|██████▍   | 129/200 [03:18<01:46,  1.51s/it]Pontuando coerência:  65%|██████▌   | 130/200 [03:20<01:40,  1.44s/it]Pontuando coerência:  66%|██████▌   | 131/200 [03:21<01:35,  1.39s/it]Pontuando coerência:  66%|██████▌   | 132/200 [03:22<01:34,  1.39s/it]Pontuando coerência:  66%|██████▋   | 133/200 [03:23<01:28,  1.32s/it]Pontuando coerência:  67%|██████▋   | 134/200 [03:25<01:25,  1.29s/it]Pontuando coerência:  68%|██████▊   | 135/200 [03:26<01:27,  1.34s/it]Pontuando coerência:  68%|██████▊   | 136/200 [03:27<01:20,  1.25s/it]Pontuando coerência:  68%|██████▊   | 137/200 [03:29<01:23,  1.32s/it]Pontuando coerência:  69%|██████▉   | 138/200 [03:30<01:20,  1.30s/it]Pontuando coerência:  70%|██████▉   | 139/200 [03:31<01:21,  1.33s/it]Pontuando coerência:  70%|███████   | 140/200 [03:33<01:28,  1.48s/it]Pontuando coerência:  70%|███████   | 141/200 [03:34<01:24,  1.43s/it]Pontuando coerência:  71%|███████   | 142/200 [03:36<01:18,  1.36s/it]Pontuando coerência:  72%|███████▏  | 143/200 [03:37<01:14,  1.31s/it]Pontuando coerência:  72%|███████▏  | 144/200 [03:38<01:14,  1.33s/it]Pontuando coerência:  72%|███████▎  | 145/200 [03:40<01:12,  1.31s/it]Pontuando coerência:  73%|███████▎  | 146/200 [03:41<01:12,  1.34s/it]Pontuando coerência:  74%|███████▎  | 147/200 [03:43<01:16,  1.44s/it]Pontuando coerência:  74%|███████▍  | 148/200 [03:44<01:11,  1.38s/it]Pontuando coerência:  74%|███████▍  | 149/200 [03:45<01:14,  1.46s/it]Pontuando coerência:  75%|███████▌  | 150/200 [03:47<01:09,  1.38s/it]Pontuando coerência:  76%|███████▌  | 151/200 [03:48<01:11,  1.46s/it]Pontuando coerência:  76%|███████▌  | 152/200 [03:50<01:10,  1.47s/it]Pontuando coerência:  76%|███████▋  | 153/200 [03:51<01:09,  1.48s/it]Pontuando coerência:  77%|███████▋  | 154/200 [03:57<02:09,  2.81s/it]Pontuando coerência:  78%|███████▊  | 155/200 [03:59<01:45,  2.35s/it]Pontuando coerência:  78%|███████▊  | 156/200 [04:00<01:30,  2.06s/it]Pontuando coerência:  78%|███████▊  | 157/200 [04:02<01:25,  1.98s/it]Pontuando coerência:  79%|███████▉  | 158/200 [04:03<01:15,  1.80s/it]Pontuando coerência:  80%|███████▉  | 159/200 [04:04<01:08,  1.66s/it]Pontuando coerência:  80%|████████  | 160/200 [04:06<01:04,  1.62s/it]Pontuando coerência:  80%|████████  | 161/200 [04:08<01:03,  1.63s/it]Pontuando coerência:  81%|████████  | 162/200 [04:09<00:58,  1.53s/it]Pontuando coerência:  82%|████████▏ | 163/200 [04:10<00:53,  1.44s/it]Pontuando coerência:  82%|████████▏ | 164/200 [04:11<00:49,  1.37s/it]Pontuando coerência:  82%|████████▎ | 165/200 [04:13<00:47,  1.36s/it]Pontuando coerência:  83%|████████▎ | 166/200 [04:14<00:49,  1.45s/it]Pontuando coerência:  84%|████████▎ | 167/200 [04:16<00:48,  1.46s/it]Pontuando coerência:  84%|████████▍ | 168/200 [04:17<00:45,  1.41s/it]Pontuando coerência:  84%|████████▍ | 169/200 [04:18<00:40,  1.29s/it]Pontuando coerência:  85%|████████▌ | 170/200 [04:20<00:40,  1.37s/it]Pontuando coerência:  86%|████████▌ | 171/200 [04:21<00:38,  1.33s/it]Pontuando coerência:  86%|████████▌ | 172/200 [04:22<00:35,  1.27s/it]Pontuando coerência:  86%|████████▋ | 173/200 [04:23<00:34,  1.29s/it]Pontuando coerência:  87%|████████▋ | 174/200 [04:25<00:34,  1.32s/it]Pontuando coerência:  88%|████████▊ | 175/200 [04:26<00:33,  1.36s/it]Pontuando coerência:  88%|████████▊ | 176/200 [04:27<00:30,  1.29s/it]Pontuando coerência:  88%|████████▊ | 177/200 [04:29<00:29,  1.28s/it]Pontuando coerência:  89%|████████▉ | 178/200 [04:30<00:29,  1.36s/it]Pontuando coerência:  90%|████████▉ | 179/200 [04:31<00:27,  1.31s/it]Pontuando coerência:  90%|█████████ | 180/200 [04:33<00:28,  1.45s/it]Pontuando coerência:  90%|█████████ | 181/200 [04:35<00:28,  1.50s/it]Pontuando coerência:  91%|█████████ | 182/200 [04:37<00:31,  1.77s/it]Pontuando coerência:  92%|█████████▏| 183/200 [04:38<00:27,  1.63s/it]Pontuando coerência:  92%|█████████▏| 184/200 [04:40<00:23,  1.46s/it]Pontuando coerência:  92%|█████████▎| 185/200 [04:41<00:20,  1.38s/it]Pontuando coerência:  93%|█████████▎| 186/200 [04:42<00:18,  1.32s/it]Pontuando coerência:  94%|█████████▎| 187/200 [04:43<00:16,  1.31s/it]Pontuando coerência:  94%|█████████▍| 188/200 [04:44<00:15,  1.31s/it]Pontuando coerência:  94%|█████████▍| 189/200 [04:46<00:14,  1.35s/it]Pontuando coerência:  95%|█████████▌| 190/200 [04:47<00:12,  1.25s/it]Pontuando coerência:  96%|█████████▌| 191/200 [04:48<00:11,  1.26s/it]Pontuando coerência:  96%|█████████▌| 192/200 [04:50<00:10,  1.30s/it]Pontuando coerência:  96%|█████████▋| 193/200 [04:51<00:09,  1.40s/it]Pontuando coerência:  97%|█████████▋| 194/200 [04:53<00:08,  1.48s/it]Pontuando coerência:  98%|█████████▊| 195/200 [04:54<00:07,  1.41s/it]Pontuando coerência:  98%|█████████▊| 196/200 [04:56<00:05,  1.42s/it]Pontuando coerência:  98%|█████████▊| 197/200 [04:57<00:04,  1.34s/it]Pontuando coerência:  99%|█████████▉| 198/200 [04:58<00:02,  1.36s/it]Pontuando coerência: 100%|█████████▉| 199/200 [05:00<00:01,  1.36s/it]Pontuando coerência: 100%|██████████| 200/200 [05:01<00:00,  1.33s/it]Pontuando coerência: 100%|██████████| 200/200 [05:01<00:00,  1.51s/it]
+
+================================================================================
+RELATÓRIO DE AVALIAÇÃO - Capitu
+Modelo: sabia-3.1
+Dataset: data/input_questions.jsonl
+Modo: Single-turn
+================================================================================
+
+📊 MÉTRICAS PRINCIPAIS
+------------------------------------------------------------
+  Acurácia Estrita (prompt):     71.50%  (143/200)
+  Acurácia Flexível (prompt):    78.00%
+  Acurácia por Instrução:        84.20%  (341/405)
+  Pontuação Final (ponderada):   0.8891
+
+  Prompts 100% corretos:          143  (71.5%)
+  Prompts parcialmente corretos:   50  (25.0%)
+  Prompts 0% corretos:              7  (3.5%)
+
+📝 COERÊNCIA
+------------------------------------------------------------
+  Média:          0.9505
+  Mínimo:         0.6000
+  Máximo:         1.0000
+  Desvio padrão:  0.0686
+
+📄 QUALIDADE DAS RESPOSTAS
+------------------------------------------------------------
+  Palavras (média):              205.1
+  Palavras únicas (média):       131.9
+  Diversidade vocabular:         64.29%
+  Frases (média):                9.4
+  Palavras por frase:            21.7
+
+📈 POR DIFICULDADE
+------------------------------------------------------------
+  Nível        Acurácia     Instr.      N
+  ---------- ---------- ---------- ------
+  Easy           90.0%     90.0%     70
+  Medium         70.0%     85.0%     70
+  Hard           51.7%     81.5%     60
+
+📂 POR CATEGORIA DE INSTRUÇÃO
+------------------------------------------------------------
+  Categoria         Acurácia    Tipos    Total
+  --------------- ---------- -------- --------
+  structure           71.9%        5       32
+  pattern             72.9%        7       70
+  count               78.8%       12      118
+  words               89.3%        7       56
+  format              90.3%        5       31
+  forbidden           97.7%        6       88
+  punctuation        100.0%        3       10
+
+📚 POR OBRA LITERÁRIA
+------------------------------------------------------------
+  Obra                             Acurácia  Coerência      N
+  ------------------------------ ---------- ---------- ------
+  O Cortiço                          50.0%       0.94     20
+  Dom Casmurro                       52.9%       0.94     17
+  Vidas Secas                        65.4%       0.96     26
+  A Hora da Estrela                  66.7%       0.97     33
+  Grande Sertão: Veredas             73.1%       0.96     26
+  Macunaíma                          81.2%       0.93     32
+  Capitães da Areia                  81.8%       0.97     22
+  Iracema                            91.7%       0.92     24
+
+🔴 INSTRUÇÕES MAIS DIFÍCEIS
+------------------------------------------------------------
+   1. count:exact_word_count              ░░░░░░░░░░░░░░░░░░░░  0.0%
+   2. words:max_word_repeat               ░░░░░░░░░░░░░░░░░░░░  0.0%
+   3. structure:acrostic                  ░░░░░░░░░░░░░░░░░░░░  0.0%
+   4. count:max_word_count                ██████░░░░░░░░░░░░░░ 33.3%
+   5. count:sentence_count_range          ██████░░░░░░░░░░░░░░ 33.3%
+   6. structure:start_end_same_word       ██████░░░░░░░░░░░░░░ 33.3%
+   7. pattern:terminacao_inho_inha_min    ███████░░░░░░░░░░░░░ 37.5%
+   8. count:word_count_range              █████████░░░░░░░░░░░ 48.1%
+   9. count:character_count_range         ██████████░░░░░░░░░░ 50.0%
+  10. pattern:terminacao_mente_limit      ████████████░░░░░░░░ 60.0%
+
+🟢 INSTRUÇÕES MAIS FÁCEIS
+------------------------------------------------------------
+   1. format:all_lowercase                ████████████████████ 100.0%
+   2. punctuation:include_quote           ████████████████████ 100.0%
+   3. words:include_words                 ████████████████████ 100.0%
+   4. pattern:terminacao_mente_min        ████████████████████ 100.0%
+   5. forbidden:words_list                ████████████████████ 100.0%
+   6. format:all_caps                     ████████████████████ 100.0%
+   7. forbidden:no_numbers                ████████████████████ 100.0%
+   8. format:title_case_start             ████████████████████ 100.0%
+   9. words:word_frequency                ████████████████████ 100.0%
+  10. count:exact_sentence_count          ████████████████████ 100.0%
+
+================================================================================
+
+Relatório JSON salvo em: runs/sabia-3.1/eval/single-turn/metrics_report.json
+Relatório Markdown salvo em: runs/sabia-3.1/eval/single-turn/metrics_report.md
+
+================================================================
+AVALIAÇÃO CONCLUÍDA
+================================================================
+Todos os resultados salvos em: runs/sabia-3.1/eval/single-turn
+[1;32m[OK][0m Avaliação single-turn concluída para sabia-3.1
+
+[1;34m[INFO][0m Avaliando multi-turn para sabia-3.1...
+Questões carregadas: 100
+Respostas carregadas: 100
+Modo detectado: multi-turn
+Avaliando conversas multi-turn:   0%|          | 0/100 [00:00<?, ?it/s]Avaliando conversas multi-turn: 100%|██████████| 100/100 [00:00<00:00, 9574.72it/s]
+
+================================================================================
+RELATÓRIO DE AVALIAÇÃO - Capitu
+Modelo: sabia-3.1
+Dataset: data/input_questions_multiturn.jsonl
+Modo: Multi-turn
+================================================================================
+
+📊 MÉTRICAS PRINCIPAIS
+------------------------------------------------------------
+  Acurácia Estrita (prompt):     61.00%  (61/100)
+  Acurácia por Instrução:        91.17%  (547/600)
+
+  Prompts 100% corretos:           61  (61.0%)
+  Prompts parcialmente corretos:   38  (38.0%)
+  Prompts 0% corretos:              1  (1.0%)
+
+📂 POR CATEGORIA DE INSTRUÇÃO
+------------------------------------------------------------
+  Categoria         Acurácia    Tipos    Total
+  --------------- ---------- -------- --------
+  pattern             66.7%        2       60
+  count               83.8%        3      148
+  structure           94.7%        2       76
+  forbidden           96.7%        3      121
+  words               99.4%        4      159
+  punctuation        100.0%        1       36
+
+🔄 POR TURNO
+------------------------------------------------------------
+  Turno        Acurácia   Instruções      N
+  ---------- ---------- ------------ ------
+  Turno 1       97.0%         1.0    100
+  Turno 2       85.0%         2.0    100
+  Turno 3       67.0%         3.0    100
+
+🔴 INSTRUÇÕES MAIS DIFÍCEIS
+------------------------------------------------------------
+   1. pattern:terminacao_ando_endo_indo_limit ██████████░░░░░░░░░░ 54.5%
+   2. count:word_count_range              ████████████░░░░░░░░ 63.6%
+   3. pattern:terminacao_mente_limit      ██████████████░░░░░░ 73.7%
+   4. structure:no_repeat_sentence_start  ███████████████░░░░░ 78.9%
+   5. forbidden:no_first_person           ████████████████░░░░ 81.8%
+   6. words:temporal_marker               ███████████████████░ 95.2%
+   7. structure:start_with_word           ████████████████████ 100.0%
+   8. words:contrast_marker               ████████████████████ 100.0%
+   9. forbidden:no_questions              ████████████████████ 100.0%
+  10. words:connective                    ████████████████████ 100.0%
+
+🟢 INSTRUÇÕES MAIS FÁCEIS
+------------------------------------------------------------
+   1. forbidden:word                      ████████████████████ 100.0%
+   2. punctuation:include_quote           ████████████████████ 100.0%
+   3. count:min_word_count                ████████████████████ 100.0%
+   4. count:min_paragraph_count           ████████████████████ 100.0%
+   5. words:include_word                  ████████████████████ 100.0%
+   6. words:connective                    ████████████████████ 100.0%
+   7. forbidden:no_questions              ████████████████████ 100.0%
+   8. words:contrast_marker               ████████████████████ 100.0%
+   9. structure:start_with_word           ████████████████████ 100.0%
+  10. words:temporal_marker               ███████████████████░ 95.2%
+
+================================================================================
+
+Relatório JSON salvo em: runs/sabia-3.1/eval/multi-turn/metrics_report.json
+Relatório Markdown salvo em: runs/sabia-3.1/eval/multi-turn/metrics_report.md
+
+================================================================
+AVALIAÇÃO CONCLUÍDA
+================================================================
+Todos os resultados salvos em: runs/sabia-3.1/eval/multi-turn
+[1;32m[OK][0m Avaliação multi-turn concluída para sabia-3.1
+
+========================================================================
+AVALIAÇÃO CONCLUÍDA PARA TODOS OS MODELOS
+========================================================================

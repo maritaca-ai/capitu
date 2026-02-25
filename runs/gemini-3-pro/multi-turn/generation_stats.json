@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 6009.591972210794,
+  "avg_latency_per_turn_s": 20.031973240702644,
+  "total_prompt_tokens": 95980,
+  "total_completion_tokens": 481991,
+  "total_cost": 5.975852,
+  "model_name": "google/gemini-3-pro-preview",
+  "is_multi_turn": true
+}

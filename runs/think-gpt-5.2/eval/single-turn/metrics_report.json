@@ -1,0 +1,605 @@
+{
+  "model_name": "gpt-5.2",
+  "dataset_name": "data/input_questions.jsonl",
+  "is_multi_turn": false,
+  "overall": {
+    "strict_accuracy": 0.985,
+    "loose_accuracy": 0.985,
+    "instruction_level_accuracy": 0.9925925925925926,
+    "final_score": 0.9881111111111112,
+    "total_prompts": 200,
+    "total_instructions": 405,
+    "total_instructions_correct": 402,
+    "prompts_all_correct": 197,
+    "prompts_partial_correct": 3,
+    "prompts_all_wrong": 0
+  },
+  "coherence": {
+    "avg_coherence": 0.976,
+    "min_coherence": 0.8,
+    "max_coherence": 1.0,
+    "std_coherence": 0.04386342439892261,
+    "coherence_by_difficulty": {
+      "easy": 0.9871428571428571,
+      "medium": 0.9785714285714285,
+      "hard": 0.9600000000000001
+    },
+    "coherence_by_book": {
+      "A Hora da Estrela": 0.9848484848484849,
+      "Iracema": 0.9500000000000001,
+      "Macunaíma": 0.971875,
+      "Dom Casmurro": 0.9764705882352942,
+      "O Cortiço": 0.97,
+      "Grande Sertão: Veredas": 0.9961538461538461,
+      "Vidas Secas": 0.9769230769230769,
+      "Capitães da Areia": 0.9772727272727273
+    }
+  },
+  "response_quality": {
+    "avg_word_count": 303.81,
+    "avg_char_count": 1940.71,
+    "avg_unique_words": 191.37,
+    "avg_vocabulary_diversity": 0.6299002666140022,
+    "avg_sentence_count": 11.9,
+    "avg_words_per_sentence": 25.530252100840336
+  },
+  "by_instruction": {
+    "count:min_paragraph_count": {
+      "instruction_id": "count:min_paragraph_count",
+      "category": "count",
+      "total": 18,
+      "correct": 18,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_ando_endo_indo_min": {
+      "instruction_id": "pattern:terminacao_ando_endo_indo_min",
+      "category": "pattern",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "words:connective": {
+      "instruction_id": "words:connective",
+      "category": "words",
+      "total": 18,
+      "correct": 18,
+      "accuracy": 1.0
+    },
+    "count:exact_word_count": {
+      "instruction_id": "count:exact_word_count",
+      "category": "count",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "words:max_word_repeat": {
+      "instruction_id": "words:max_word_repeat",
+      "category": "words",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "forbidden:no_first_person": {
+      "instruction_id": "forbidden:no_first_person",
+      "category": "forbidden",
+      "total": 16,
+      "correct": 16,
+      "accuracy": 1.0
+    },
+    "words:contrast_marker": {
+      "instruction_id": "words:contrast_marker",
+      "category": "words",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "count:word_count_range": {
+      "instruction_id": "count:word_count_range",
+      "category": "count",
+      "total": 27,
+      "correct": 27,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_ando_endo_indo_limit": {
+      "instruction_id": "pattern:terminacao_ando_endo_indo_limit",
+      "category": "pattern",
+      "total": 14,
+      "correct": 14,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_ao_oes_min": {
+      "instruction_id": "pattern:terminacao_ao_oes_min",
+      "category": "pattern",
+      "total": 9,
+      "correct": 9,
+      "accuracy": 1.0
+    },
+    "count:min_word_count": {
+      "instruction_id": "count:min_word_count",
+      "category": "count",
+      "total": 18,
+      "correct": 18,
+      "accuracy": 1.0
+    },
+    "forbidden:no_questions": {
+      "instruction_id": "forbidden:no_questions",
+      "category": "forbidden",
+      "total": 24,
+      "correct": 24,
+      "accuracy": 1.0
+    },
+    "format:numbered_list": {
+      "instruction_id": "format:numbered_list",
+      "category": "format",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "count:exact_paragraph_count": {
+      "instruction_id": "count:exact_paragraph_count",
+      "category": "count",
+      "total": 7,
+      "correct": 7,
+      "accuracy": 1.0
+    },
+    "structure:start_with_word": {
+      "instruction_id": "structure:start_with_word",
+      "category": "structure",
+      "total": 16,
+      "correct": 16,
+      "accuracy": 1.0
+    },
+    "forbidden:word": {
+      "instruction_id": "forbidden:word",
+      "category": "forbidden",
+      "total": 21,
+      "correct": 21,
+      "accuracy": 1.0
+    },
+    "structure:acrostic": {
+      "instruction_id": "structure:acrostic",
+      "category": "structure",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "count:exact_line_count": {
+      "instruction_id": "count:exact_line_count",
+      "category": "count",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_mente_proibido": {
+      "instruction_id": "pattern:terminacao_mente_proibido",
+      "category": "pattern",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_mente_limit": {
+      "instruction_id": "pattern:terminacao_mente_limit",
+      "category": "pattern",
+      "total": 25,
+      "correct": 25,
+      "accuracy": 1.0
+    },
+    "count:min_sentence_count": {
+      "instruction_id": "count:min_sentence_count",
+      "category": "count",
+      "total": 19,
+      "correct": 19,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_inho_inha_min": {
+      "instruction_id": "pattern:terminacao_inho_inha_min",
+      "category": "pattern",
+      "total": 8,
+      "correct": 8,
+      "accuracy": 1.0
+    },
+    "words:temporal_marker": {
+      "instruction_id": "words:temporal_marker",
+      "category": "words",
+      "total": 8,
+      "correct": 8,
+      "accuracy": 1.0
+    },
+    "forbidden:no_exclamations": {
+      "instruction_id": "forbidden:no_exclamations",
+      "category": "forbidden",
+      "total": 12,
+      "correct": 12,
+      "accuracy": 1.0
+    },
+    "format:bullet_list": {
+      "instruction_id": "format:bullet_list",
+      "category": "format",
+      "total": 18,
+      "correct": 17,
+      "accuracy": 0.9444444444444444
+    },
+    "words:include_word": {
+      "instruction_id": "words:include_word",
+      "category": "words",
+      "total": 18,
+      "correct": 18,
+      "accuracy": 1.0
+    },
+    "count:max_word_count": {
+      "instruction_id": "count:max_word_count",
+      "category": "count",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "count:sentence_count_range": {
+      "instruction_id": "count:sentence_count_range",
+      "category": "count",
+      "total": 6,
+      "correct": 6,
+      "accuracy": 1.0
+    },
+    "count:unique_word_count": {
+      "instruction_id": "count:unique_word_count",
+      "category": "count",
+      "total": 6,
+      "correct": 6,
+      "accuracy": 1.0
+    },
+    "punctuation:use_semicolon": {
+      "instruction_id": "punctuation:use_semicolon",
+      "category": "punctuation",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "punctuation:include_question": {
+      "instruction_id": "punctuation:include_question",
+      "category": "punctuation",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "count:exact_sentence_count": {
+      "instruction_id": "count:exact_sentence_count",
+      "category": "count",
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0
+    },
+    "words:word_frequency": {
+      "instruction_id": "words:word_frequency",
+      "category": "words",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "format:title_case_start": {
+      "instruction_id": "format:title_case_start",
+      "category": "format",
+      "total": 6,
+      "correct": 6,
+      "accuracy": 1.0
+    },
+    "structure:end_with_word": {
+      "instruction_id": "structure:end_with_word",
+      "category": "structure",
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "forbidden:no_numbers": {
+      "instruction_id": "forbidden:no_numbers",
+      "category": "forbidden",
+      "total": 13,
+      "correct": 13,
+      "accuracy": 1.0
+    },
+    "format:all_caps": {
+      "instruction_id": "format:all_caps",
+      "category": "format",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "forbidden:words_list": {
+      "instruction_id": "forbidden:words_list",
+      "category": "forbidden",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "pattern:terminacao_mente_min": {
+      "instruction_id": "pattern:terminacao_mente_min",
+      "category": "pattern",
+      "total": 4,
+      "correct": 4,
+      "accuracy": 1.0
+    },
+    "words:include_words": {
+      "instruction_id": "words:include_words",
+      "category": "words",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "punctuation:include_quote": {
+      "instruction_id": "punctuation:include_quote",
+      "category": "punctuation",
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "count:character_count_range": {
+      "instruction_id": "count:character_count_range",
+      "category": "count",
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "structure:start_end_same_word": {
+      "instruction_id": "structure:start_end_same_word",
+      "category": "structure",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "structure:no_repeat_sentence_start": {
+      "instruction_id": "structure:no_repeat_sentence_start",
+      "category": "structure",
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "format:all_lowercase": {
+      "instruction_id": "format:all_lowercase",
+      "category": "format",
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    }
+  },
+  "by_category": {
+    "count": {
+      "category": "count",
+      "total_instructions": 118,
+      "total_correct": 118,
+      "accuracy": 1.0,
+      "instruction_count": 12
+    },
+    "pattern": {
+      "category": "pattern",
+      "total_instructions": 70,
+      "total_correct": 70,
+      "accuracy": 1.0,
+      "instruction_count": 7
+    },
+    "words": {
+      "category": "words",
+      "total_instructions": 56,
+      "total_correct": 56,
+      "accuracy": 1.0,
+      "instruction_count": 7
+    },
+    "forbidden": {
+      "category": "forbidden",
+      "total_instructions": 88,
+      "total_correct": 88,
+      "accuracy": 1.0,
+      "instruction_count": 6
+    },
+    "format": {
+      "category": "format",
+      "total_instructions": 31,
+      "total_correct": 30,
+      "accuracy": 0.967741935483871,
+      "instruction_count": 5
+    },
+    "structure": {
+      "category": "structure",
+      "total_instructions": 32,
+      "total_correct": 32,
+      "accuracy": 1.0,
+      "instruction_count": 5
+    },
+    "punctuation": {
+      "category": "punctuation",
+      "total_instructions": 10,
+      "total_correct": 8,
+      "accuracy": 0.8,
+      "instruction_count": 3
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "difficulty": "easy",
+      "total": 70,
+      "correct": 70,
+      "accuracy": 1.0,
+      "avg_instructions": 1.0,
+      "instruction_level_accuracy": 1.0
+    },
+    "medium": {
+      "difficulty": "medium",
+      "total": 70,
+      "correct": 69,
+      "accuracy": 0.9857142857142858,
+      "avg_instructions": 2.0,
+      "instruction_level_accuracy": 0.9928571428571429
+    },
+    "hard": {
+      "difficulty": "hard",
+      "total": 60,
+      "correct": 58,
+      "accuracy": 0.9666666666666667,
+      "avg_instructions": 3.25,
+      "instruction_level_accuracy": 0.9897435897435898
+    }
+  },
+  "by_book": {
+    "A Hora da Estrela": {
+      "book": "A Hora da Estrela",
+      "total": 33,
+      "correct": 32,
+      "accuracy": 0.9696969696969697,
+      "avg_coherence": 0.9848484848484849
+    },
+    "Iracema": {
+      "book": "Iracema",
+      "total": 24,
+      "correct": 24,
+      "accuracy": 1.0,
+      "avg_coherence": 0.9499999999999998
+    },
+    "Macunaíma": {
+      "book": "Macunaíma",
+      "total": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "avg_coherence": 0.9718749999999998
+    },
+    "Dom Casmurro": {
+      "book": "Dom Casmurro",
+      "total": 17,
+      "correct": 17,
+      "accuracy": 1.0,
+      "avg_coherence": 0.9764705882352942
+    },
+    "O Cortiço": {
+      "book": "O Cortiço",
+      "total": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "avg_coherence": 0.9700000000000001
+    },
+    "Grande Sertão: Veredas": {
+      "book": "Grande Sertão: Veredas",
+      "total": 26,
+      "correct": 25,
+      "accuracy": 0.9615384615384616,
+      "avg_coherence": 0.9961538461538461
+    },
+    "Vidas Secas": {
+      "book": "Vidas Secas",
+      "total": 26,
+      "correct": 26,
+      "accuracy": 1.0,
+      "avg_coherence": 0.9769230769230768
+    },
+    "Capitães da Areia": {
+      "book": "Capitães da Areia",
+      "total": 22,
+      "correct": 21,
+      "accuracy": 0.9545454545454546,
+      "avg_coherence": 0.9772727272727273
+    }
+  },
+  "by_turn": {},
+  "hardest_instructions": [
+    [
+      "punctuation:include_quote",
+      0.0
+    ],
+    [
+      "format:bullet_list",
+      0.9444444444444444
+    ],
+    [
+      "count:min_paragraph_count",
+      1.0
+    ],
+    [
+      "pattern:terminacao_ando_endo_indo_min",
+      1.0
+    ],
+    [
+      "words:connective",
+      1.0
+    ],
+    [
+      "count:exact_word_count",
+      1.0
+    ],
+    [
+      "words:max_word_repeat",
+      1.0
+    ],
+    [
+      "forbidden:no_first_person",
+      1.0
+    ],
+    [
+      "words:contrast_marker",
+      1.0
+    ],
+    [
+      "count:word_count_range",
+      1.0
+    ]
+  ],
+  "easiest_instructions": [
+    [
+      "format:all_lowercase",
+      1.0
+    ],
+    [
+      "structure:no_repeat_sentence_start",
+      1.0
+    ],
+    [
+      "structure:start_end_same_word",
+      1.0
+    ],
+    [
+      "count:character_count_range",
+      1.0
+    ],
+    [
+      "words:include_words",
+      1.0
+    ],
+    [
+      "pattern:terminacao_mente_min",
+      1.0
+    ],
+    [
+      "forbidden:words_list",
+      1.0
+    ],
+    [
+      "format:all_caps",
+      1.0
+    ],
+    [
+      "forbidden:no_numbers",
+      1.0
+    ],
+    [
+      "structure:end_with_word",
+      1.0
+    ]
+  ],
+  "hardest_books": [
+    [
+      "Capitães da Areia",
+      0.9545454545454546
+    ],
+    [
+      "Grande Sertão: Veredas",
+      0.9615384615384616
+    ],
+    [
+      "A Hora da Estrela",
+      0.9696969696969697
+    ],
+    [
+      "Iracema",
+      1.0
+    ],
+    [
+      "Macunaíma",
+      1.0
+    ]
+  ]
+}

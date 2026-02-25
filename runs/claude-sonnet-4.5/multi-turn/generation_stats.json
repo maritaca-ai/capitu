@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 3237.371776437867,
+  "avg_latency_per_turn_s": 10.79123925479289,
+  "total_prompt_tokens": 137974,
+  "total_completion_tokens": 120178,
+  "total_cost": 2.216592,
+  "model_name": "anthropic/claude-sonnet-4.5",
+  "is_multi_turn": true
+}

@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1339.28,
+  "avg_response_words": 210.885,
+  "total_latency_s": 1206.1517512509163,
+  "avg_latency_s": 6.030758756254581,
+  "total_prompt_tokens": 12198,
+  "total_completion_tokens": 63586,
+  "total_cost": 0.196857,
+  "model_name": "google/gemini-3-flash-preview",
+  "is_multi_turn": false
+}

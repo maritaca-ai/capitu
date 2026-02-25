@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1513.065,
+  "avg_response_words": 234.88,
+  "total_latency_s": 5040.143061402981,
+  "avg_latency_s": 25.200715307014907,
+  "total_prompt_tokens": 12227,
+  "total_completion_tokens": 399982,
+  "total_cost": 4.824238,
+  "model_name": "google/gemini-3-pro-preview",
+  "is_multi_turn": false
+}

@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 6315.036529665027,
+  "avg_latency_per_turn_s": 21.05012176555009,
+  "total_prompt_tokens": 95310,
+  "total_completion_tokens": 72912,
+  "total_cost": 0.06303318,
+  "model_name": "sabiazinho-3",
+  "is_multi_turn": true
+}

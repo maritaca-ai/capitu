@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1644.05,
+  "avg_response_words": 233.785,
+  "total_latency_s": 2637.4009084109857,
+  "avg_latency_s": 13.187004542054929,
+  "total_prompt_tokens": 16766,
+  "total_completion_tokens": 94627,
+  "total_cost": 1.469703,
+  "model_name": "anthropic/claude-sonnet-4.5",
+  "is_multi_turn": false
+}

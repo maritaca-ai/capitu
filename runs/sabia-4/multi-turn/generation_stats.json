@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 870.5649745320698,
+  "avg_latency_per_turn_s": 2.9018832484402326,
+  "total_prompt_tokens": 95527,
+  "total_completion_tokens": 71707,
+  "total_cost": 0.367299,
+  "model_name": "sabia-4",
+  "is_multi_turn": true
+}

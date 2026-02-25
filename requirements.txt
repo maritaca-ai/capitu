@@ -4,3 +4,4 @@ openai
 tqdm
 matplotlib
 numpy
+wandb

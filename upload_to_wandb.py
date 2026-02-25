@@ -57,14 +57,14 @@ def main():
         # Per-difficulty
         for diff in ["easy", "medium", "hard"]:
             if diff in st.get("by_difficulty", {}):
-                metrics[f"difficulty/{diff}/strict_accuracy"] = st["by_difficulty"][diff]["strict_accuracy"]
+                metrics[f"difficulty/{diff}/strict_accuracy"] = st["by_difficulty"][diff]["accuracy"]
 
     if mt is not None:
         metrics["multi_turn/conversation_accuracy"] = mt["overall"]["strict_accuracy"]
         metrics["multi_turn/instruction_level_accuracy"] = mt["overall"]["instruction_level_accuracy"]
         # Per-turn
         for turn_key, turn_data in mt.get("by_turn", {}).items():
-            metrics[f"multi_turn/{turn_key}/strict_accuracy"] = turn_data["strict_accuracy"]
+            metrics[f"multi_turn/{turn_key}/strict_accuracy"] = turn_data["accuracy"]
 
     if not metrics:
         print("No valid metrics extracted.")
@@ -78,7 +78,8 @@ def main():
         name=wandb_run_name,
         config={"model": args.run_id, "benchmark": "capitu"},
     ) as run:
-        run.summary.update(metrics)
+        for k, v in sorted(metrics.items()):
+            wandb.log({k: v})
         print(f"Uploaded {len(metrics)} metrics to W&B run: {wandb_run_name}")
         for k, v in sorted(metrics.items()):
             print(f"  {k}: {v}")

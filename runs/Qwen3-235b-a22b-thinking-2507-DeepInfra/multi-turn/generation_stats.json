@@ -1,0 +1,12 @@
+{
+  "conversations": 83,
+  "total_turns": 249,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 11126.810971982195,
+  "avg_latency_per_turn_s": 44.68598783928592,
+  "total_prompt_tokens": 101127,
+  "total_completion_tokens": 401580,
+  "total_cost": 0.9457800900222624,
+  "model_name": "qwen/qwen3-235b-a22b-thinking-2507",
+  "is_multi_turn": true
+}

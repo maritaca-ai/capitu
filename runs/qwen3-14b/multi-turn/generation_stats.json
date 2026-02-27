@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 5050.876791111965,
+  "avg_latency_per_turn_s": 16.836255970373216,
+  "total_prompt_tokens": 101148,
+  "total_completion_tokens": 163258,
+  "total_cost": 0.04596896,
+  "model_name": "qwen/qwen3-14b",
+  "is_multi_turn": true
+}

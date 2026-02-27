@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 4641.423871271225,
+  "avg_latency_per_turn_s": 15.471412904237416,
+  "total_prompt_tokens": 107688,
+  "total_completion_tokens": 336046,
+  "total_cost": 0.699014,
+  "model_name": "gpt-5-mini",
+  "is_multi_turn": true
+}

@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1940.71,
+  "avg_response_words": 303.81,
+  "total_latency_s": 3843.778539218125,
+  "avg_latency_s": 19.218892696090624,
+  "total_prompt_tokens": 12871,
+  "total_completion_tokens": 192029,
+  "total_cost": 0,
+  "model_name": "gpt-5.2",
+  "is_multi_turn": false
+}

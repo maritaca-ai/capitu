@@ -1,0 +1,7 @@
+nltk
+immutabledict
+openai
+tqdm
+matplotlib
+numpy
+wandb

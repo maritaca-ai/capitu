@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1154.5,
+  "avg_response_words": 177.32,
+  "total_latency_s": 6356.211070052959,
+  "avg_latency_s": 31.781055350264797,
+  "total_prompt_tokens": 13682,
+  "total_completion_tokens": 64208,
+  "total_cost": 0.04075594,
+  "model_name": "sabiazinho-3",
+  "is_multi_turn": false
+}

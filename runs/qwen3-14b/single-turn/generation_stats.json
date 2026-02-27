@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1247.88,
+  "avg_response_words": 186.43,
+  "total_latency_s": 3203.7584459191276,
+  "avg_latency_s": 16.018792229595636,
+  "total_prompt_tokens": 15282,
+  "total_completion_tokens": 147833,
+  "total_cost": 0.03652272,
+  "model_name": "qwen/qwen3-14b",
+  "is_multi_turn": false
+}

@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 1734.401488244912,
+  "avg_latency_per_turn_s": 5.781338294149706,
+  "total_prompt_tokens": 105049,
+  "total_completion_tokens": 76809,
+  "total_cost": 0.2829515,
+  "model_name": "google/gemini-3-flash-preview",
+  "is_multi_turn": true
+}

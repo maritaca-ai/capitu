@@ -1,0 +1,12 @@
+{
+  "responses": 182,
+  "avg_response_chars": 1534.131868131868,
+  "avg_response_words": 237.14285714285714,
+  "total_latency_s": 2196.8835550369986,
+  "avg_latency_s": 12.070788763939552,
+  "total_prompt_tokens": 12409,
+  "total_completion_tokens": 77004,
+  "total_cost": 0.15988441,
+  "model_name": "sabia-3",
+  "is_multi_turn": false
+}

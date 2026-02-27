@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1589.42,
+  "avg_response_words": 226.42,
+  "total_latency_s": 1142.9985089729307,
+  "avg_latency_s": 5.7149925448646535,
+  "total_prompt_tokens": 16766,
+  "total_completion_tokens": 91477,
+  "total_cost": 0.474151,
+  "model_name": "anthropic/claude-haiku-4.5",
+  "is_multi_turn": false
+}

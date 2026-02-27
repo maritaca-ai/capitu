@@ -1,0 +1,15 @@
+{
+  "model_name": "gpt-4o-mini",
+  "prompt_tokens": 180957,
+  "completion_tokens": 9758,
+  "reasoning_tokens": 0,
+  "total_tokens": 190715,
+  "prompt_cost": 0.0,
+  "completion_cost": 0.0,
+  "total_cost": 0.0,
+  "response_count": 200,
+  "avg_response_chars": 190.525,
+  "avg_prompt_tokens": 904.785,
+  "avg_completion_tokens": 48.79,
+  "avg_reasoning_tokens": 0.0
+}

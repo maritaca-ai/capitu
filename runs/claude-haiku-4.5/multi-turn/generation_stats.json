@@ -1,0 +1,12 @@
+{
+  "conversations": 100,
+  "total_turns": 300,
+  "avg_turns_per_conversation": 3.0,
+  "total_latency_s": 1344.6577646180522,
+  "avg_latency_per_turn_s": 4.48219254872684,
+  "total_prompt_tokens": 130510,
+  "total_completion_tokens": 104000,
+  "total_cost": 0.65051,
+  "model_name": "anthropic/claude-haiku-4.5",
+  "is_multi_turn": true
+}

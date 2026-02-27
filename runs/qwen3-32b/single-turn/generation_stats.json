@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1466.865,
+  "avg_response_words": 221.12,
+  "total_latency_s": 6709.532397155082,
+  "avg_latency_s": 33.54766198577541,
+  "total_prompt_tokens": 15322,
+  "total_completion_tokens": 171136,
+  "total_cost": 0.07260294,
+  "model_name": "qwen/qwen3-32b",
+  "is_multi_turn": false
+}

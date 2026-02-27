@@ -1,0 +1,12 @@
+{
+  "responses": 19,
+  "avg_response_chars": 1053.0,
+  "avg_response_words": 152.1578947368421,
+  "total_latency_s": 1359.7716399090132,
+  "avg_latency_s": 71.56692841626385,
+  "total_prompt_tokens": 1613,
+  "total_completion_tokens": 42972,
+  "total_cost": 0.0991902700003264,
+  "model_name": "qwen/qwen3-235b-a22b-thinking-2507",
+  "is_multi_turn": false
+}

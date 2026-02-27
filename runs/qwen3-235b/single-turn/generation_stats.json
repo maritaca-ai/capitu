@@ -1,0 +1,12 @@
+{
+  "responses": 200,
+  "avg_response_chars": 1428.245,
+  "avg_response_words": 220.44,
+  "total_latency_s": 2406.3470121969876,
+  "avg_latency_s": 12.031735060984937,
+  "total_prompt_tokens": 15082,
+  "total_completion_tokens": 79558,
+  "total_cost": 0.045590033,
+  "model_name": "qwen/qwen3-235b-a22b-2507",
+  "is_multi_turn": false
+}
